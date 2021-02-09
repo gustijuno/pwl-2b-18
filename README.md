@@ -33,4 +33,4 @@ Jika saya melakukan plagiasi, kecurangan, atau melanggar hak kekayaan intelektua
 
 Ttd,
 
-***(nama lengkap Anda)***
+***(Muhammad Gusti Herjuno)***
