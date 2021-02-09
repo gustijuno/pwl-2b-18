@@ -12,8 +12,8 @@
 
 |  |  |
 |--|--|
-| NIM | **nim** |
-| Nama Lengkap | **nama** |
+| NIM | **1941720137** |
+| Nama Lengkap | **Muhammad Gusti Herjuno** |
 | Kelas | TI-2B |
 
 
