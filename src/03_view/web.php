@@ -30,6 +30,7 @@ Route::prefix('category')->group(function(){
     route::get('/riri-story-books', [ProductController::class, 'riristorybooks']);
     route::get('/kolak-kids-songs', [ProductController::class, 'kolakkidssongs']);
 });
+route::get('/productmain', [ProductController::class, 'productmain']);
 
 //HALAMAN NEWS
 Route::get('/news',[NewsController::class, 'news']);
@@ -41,6 +42,7 @@ Route::prefix('program')->group(function(){
     route::get('/magang', [ProgramController::class, 'magang']);
     route::get('/kunjunganindustri', [ProgramController::class, 'kunjunganindustri']);
 });
+Route::get('/programmain', [ProgramController::class, 'programmain']);
 
 //HALAMAN ABOUT US
 Route::get('/about-us', [AboutusController::class, 'aboutus']);

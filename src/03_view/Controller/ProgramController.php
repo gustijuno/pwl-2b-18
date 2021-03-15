@@ -18,10 +18,14 @@ class ProgramController extends Controller
             ->with('url', 'https://www.educastudio.com/program/magang');
     }
 
-    public function kunjungan(){
+    public function kunjunganindustri(){
         return view('program')
             ->with('page', 'Halaman Kunjungan Industri')
             ->with('url', 'https://www.educastudio.com/program/kunjungan-industri');
+    }
+
+    public function programmain(){
+        return view('programmain');
     }
 
 }

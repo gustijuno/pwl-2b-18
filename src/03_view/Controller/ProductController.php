@@ -30,4 +30,12 @@ class ProductController extends Controller
             ->with('url', 'https://www.educastudio.com/category/kolak-kids-songs');
 
     }
+
+    public function productmain(){
+        return view('productmain');
+    }
+
+
+
+    
 }
