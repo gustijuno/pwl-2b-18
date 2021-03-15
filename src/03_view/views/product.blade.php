@@ -1,3 +1,4 @@
+@include('layouts.header')
 <?php
     echo $page
 ?>
