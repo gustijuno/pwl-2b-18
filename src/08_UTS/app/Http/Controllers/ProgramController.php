@@ -1,0 +1,34 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+
+
+class ProgramController extends Controller
+{
+    public function karir(){
+        return view('program')
+            ->with('page', 'Halaman Karir')
+            ->with('url', 'https://www.educastudio.com/program/karir');
+    }
+
+    public function magang(){
+        return view('program')
+            ->with('page', 'Halaman Magang')
+            ->with('url', 'https://www.educastudio.com/program/magang');
+    }
+
+    public function kunjunganindustri(){
+        return view('program')
+            ->with('page', 'Halaman Kunjungan Industri')
+            ->with('url', 'https://www.educastudio.com/program/kunjungan-industri');
+    }
+
+    
+    
+
+
+
+}
