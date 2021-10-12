@@ -14,7 +14,7 @@
 |--|--|
 | NIM | **1941720137** |
 | Nama Lengkap | **Muhammad Gusti Herjuno** |
-| Kelas | TI-2B |
+| Kelas | TI-3B |
 
 
 ## Struktur Folder
